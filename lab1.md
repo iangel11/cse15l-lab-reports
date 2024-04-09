@@ -65,7 +65,7 @@ While running this command, the absolute path was: `/Users/ianangel`
 
 ![Image](catToDir.png)
 
-The command `cat/lecture1` resulted in an error since `cat` cannot work with directories, it needs actual content.
+The command `cat lecture1` resulted in an error since `cat` cannot work with directories, it needs actual content.
 
 #### 3.
 While running this command, the absolute path was: `/Users/ianangel/lecture1/messages`
