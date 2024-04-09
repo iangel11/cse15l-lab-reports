@@ -53,6 +53,27 @@ This output is not exactly an error, but it doesn't show us the content of the f
 
 ### `cat`:
 #### 1.
+While running this command, the absolute path was: `/Users/ianangel`
+
+![Image](catNoArg.png)
+
+In this case, `cat` command didn't do anything since there was nothing to obtain/read.
+This output doesn't particulary carry error, it just does nothing.
+
+#### 2.
+While running this command, the absolute path was: `/Users/ianangel`
+
+![Image](catToDir.png)
+
+The command `cat/lecture1` resulted in an error since `cat` cannot work with directories, it needs actual content.
+
+#### 3.
+While running this command, the absolute path was: `/Users/ianangel/lecture1/messages`
+
+![Image](catToFile.png)
+
+Now, while obtaining `en-us.txt` file through command `cat/lecture1/messages/en-us.txt`, we get the output of what the text file actually contains.
+Since `cat` is used specifically for such cases, the command didn't result in any errors.
 
 
 
