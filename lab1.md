@@ -3,7 +3,7 @@
     Throughout the lab session, I used commands such as cd, ls, and cat. Here's my report on them!
 * **cd:** Changes directory.
 * **ls:** Lists the contents of a directory.
-* * **cat:** Displays the contents of a file.
+* **cat:** Displays the contents of a file.
 
 ### `cd`:
 #### 1. Using the command with no arguments
