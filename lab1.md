@@ -2,7 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Lab 1 was indeed an interesting experience that let me practice the basic concept of using terminal commands. Throughotu the lab session, I've used commands such as: `cd`, `ls`, and `cat`. For this reason, I would like to report about them! 
 
 ### `cd`:
-#### 1.
+#### 1. Using the command with no arguments
 While running this command, the absolute path was: `/Users/ianangel`
 
 ![Image](cdNoArg.png)
@@ -10,7 +10,7 @@ While running this command, the absolute path was: `/Users/ianangel`
 In this case, typing `cd` results in nothing but getting back to the home directory, because there was no specified directory to change to. 
 This output is not an error, since it changes to the home directory because I am using a Mac machine.
 
-#### 2.
+#### 2. Using the command with a path to a directory as an argument
 While running this command, the absolute path was: `/Users/ianangel/lecture1`
 
 ![Image](cdToDir.png)
@@ -18,7 +18,7 @@ While running this command, the absolute path was: `/Users/ianangel/lecture1`
 From the provided image, I used `cd` to get back to home directory and then used `cd lecture1` to get to the `lecture1` file.
 This output is not an error, since it changes to the desired directory that exists on that machine.
 
-#### 3.
+#### 3. Using the command with a path to a file as an argument
 While running this command, the absolute path stayed as: `/Users/ianangel/lecture1/messages` because of the occuring error.
 
 ![Image](cdToFile.png)
@@ -27,7 +27,7 @@ As shown on the picture, `cd` can't be used on a file because file cannot be use
 This results in an error because it is a nature of the file, it can't direct further to anything else, it's not a folder.
 
 ### `ls`:
-#### 1.
+#### 1. Using the command with no arguments
 While running this command, the absolute path was: `/Users/ianangel`
 
 ![Image](lsNoArg.png)
@@ -35,7 +35,7 @@ While running this command, the absolute path was: `/Users/ianangel`
 In this case, `ls` command showcases directories from my computer, home directory.
 This output is correct and doesn't result in an error since `ls` shows the contents/folders on my computer.
 
-#### 2.
+#### 2. Using the command with a path to a directory as an argument
 While running this command, the absolute path was: `/Users/ianangel/lecture1`
 
 ![Image](lsToDir.png)
@@ -43,7 +43,7 @@ While running this command, the absolute path was: `/Users/ianangel/lecture1`
 In this case, `ls` command showcases the contents of `lecture1`.
 This output is correct and doesn't result in an error since `ls` shows the contents/folders of `lecture1`.
 
-#### 3.
+#### 3. Using the command with a path to a file as an argument
 While running this command, the absolute path was: `/Users/ianangel/lecture1/messages/`
 
 ![Image](lsToFile.png)
@@ -52,7 +52,7 @@ In this case, while doing `ls` command on a file (in this case `en-us.txt`), it 
 This output is not exactly an error, but it doesn't show us the content of the file.
 
 ### `cat`:
-#### 1.
+#### 1. Using the command with no arguments
 While running this command, the absolute path was: `/Users/ianangel`
 
 ![Image](catNoArg.png)
@@ -60,14 +60,14 @@ While running this command, the absolute path was: `/Users/ianangel`
 In this case, `cat` command didn't do anything since there was nothing to obtain/read.
 This output doesn't particulary carry error, it just does nothing.
 
-#### 2.
+#### 2. Using the command with a path to a directory as an argument
 While running this command, the absolute path was: `/Users/ianangel`
 
 ![Image](catToDir.png)
 
 The command `cat lecture1` resulted in an error since `cat` cannot work with directories, it needs actual content.
 
-#### 3.
+#### 3. Using the command with a path to a file as an argument
 While running this command, the absolute path was: `/Users/ianangel/lecture1/messages`
 
 ![Image](catToFile.png)
