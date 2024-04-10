@@ -71,4 +71,4 @@ While running this command, the absolute path was: `/Users/ianangel/lecture1/mes
 
 ![Image](catToFile.png)
 
-Now, by accessing the `en-us.txt` file using the command `cat /lecture1/messages/en-us.txt`, it displays the content of the file. Since `cat` is designed for displaying the contents of files, the command executed without errors.
+Now, by accessing the `en-us.txt` file using the command `cat lecture1/messages/en-us.txt`, it displays the content of the file. Since `cat` is designed for displaying the contents of files, the command executed without errors.
