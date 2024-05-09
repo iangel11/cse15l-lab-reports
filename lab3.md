@@ -36,7 +36,7 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
 
 Here's the original code: 
 
-static double averageWithoutLowest(double[] arr) {
+`static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     for(double num: arr) {
@@ -47,12 +47,12 @@ static double averageWithoutLowest(double[] arr) {
       if(num != lowest) { sum += num; }
     }
     return sum / (arr.length - 1);
-  }
+  }`
 
 
 And, here's that code after the fix:
-`
-static double averageWithoutLowest(double[] arr) {
+
+`static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     int lowestCount = 0;
@@ -70,5 +70,4 @@ static double averageWithoutLowest(double[] arr) {
       sum += num;
     }
     return (sum - lowest * lowestCount) / (arr.length - lowestCount);
-}
-`
+}`
