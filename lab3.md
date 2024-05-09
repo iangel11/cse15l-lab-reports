@@ -1,14 +1,21 @@
 # Lab3 Report
-Lab 3 was indeed an interesting experience that allowed me to practice the basic concepts of using terminal commands. 
-Throughout the lab session, I used commands such as `cd`, `ls`, and `cat`. Here's my report on them!
+For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's lab.
 
-* **cd:** Changes directory.
-* **ls:** Lists the contents of a directory.
-* **cat:** Displays the contents of a file.
+### `A failure-inducing input:`:
+#### This is a JUnit test that demonstrates a failure when an array contains multiple occurrences of the lowest value, in this case, it's '3'.
 
+`import static org.junit.Assert.*;
+import org.junit.Test;
 
-### `cd`:
-#### 1. Using the command with no arguments
-While running this command, the absolute path was: `/Users/ianangel`
+public class ArrayExamplesTest {
+
+    @Test
+    public void testFailureAverageWithoutLowest() {
+        double[] input = {3, 3, 7, 9};
+        double expected = 8.0; // It should be (7 + 9) / 2
+        assertEquals(expected, ArrayExamples.averageWithoutLowest(input), 0.001);
+    }
+}` 
+
 
 ![Image](cdNoArg.png)
