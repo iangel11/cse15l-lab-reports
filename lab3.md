@@ -28,4 +28,4 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
 
 ### `The symptom, as the output of running the two tests:`
 
-![Image](twoTest.png)
+![Image](Screenshot 2024-05-08 at 10.14.46 PM.jpg)
