@@ -7,7 +7,7 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
     @Test
     public void testFailureAverageWithoutLowest(){
         double[] input = {3, 3, 7, 9};
-        double expected = 8.0; // Should be (7 + 9) / 2
+        double expected = 8.0; // It should be (7 + 9) / 2
         assertEquals(expected, ArrayExamples.averageWithoutLowest(input), 0.001);
     }
 
@@ -17,8 +17,8 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
     
     @Test
     public void testSuccessAverageWithoutLowest() {
-        double[] input = {4, 6, 8, 10}; // '4' is the lowest and unique
-        double expected = 8.0; // Should be (6 + 8 + 10) / 3
+        double[] input = {4, 6, 8, 10}; 
+        double expected = 8.0; // It should be (6 + 8 + 10) / 3
         assertEquals(expected, ArrayExamples.averageWithoutLowest(input), 0.001);
     }
 
