@@ -100,7 +100,7 @@ The first command displays all lines in `document.txt` that do not contain the w
 The second command shows lines in `config.txt` that don't start with a #, which are used for comments.
 
 ### Option 3: `-n`
-#### TThis option displays the line number in the file where each match is found.
+#### This option displays the line number in the file where each match is found.
 
     grep -n "error" ./technical/logs/error_line.txt
     grep -n "quit" ./technical/config/server.cfg
