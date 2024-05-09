@@ -74,4 +74,4 @@ And, here's that code after the fix:
 
 
 ### `Explanation of the fix`
-####This fix adapts the same logic as before but uses different numerical examples. By counting all occurrences of the lowest number, we ensure the mean is calculated only over the numbers that aren't the lowest, correctly adjusting for multiple instances of the lowest value. This revised example maintains the integrity of the initial solution while providing a unique test scenario and numbers.
+#### This fix adapts the same logic as before but uses different numerical examples. By counting all occurrences of the lowest number, we ensure the mean is calculated only over the numbers that aren't the lowest, correctly adjusting for multiple instances of the lowest value. This revised example maintains the integrity of the initial solution while providing a unique test scenario and numbers.
