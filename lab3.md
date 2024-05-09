@@ -27,5 +27,45 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
 
 
 ### `The symptom, as the output of running the two tests:`
+#### As shown in this screenshot, the test designed to verify failure handling has indeed failed, while the other test passed.
 
 ![Image](Screenshot 2024-05-08 at 10.14.46 PM.jpg)
+
+### `The bug, before-and-after`
+#### Particularly in `ArrayExamples.java`, the bug is situated in the `averageWithoutLowest` method.
+
+Here's the original code: 
+`static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+`
+
+And, here's that code after the fix:
+`static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    int lowestCount = 0;
+    for(double num: arr) {
+      if(num < lowest) {
+        lowest = num;
+        lowestCount = 1;
+      } 
+      else if (num == lowest) {
+        lowestCount++;
+      }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      sum += num;
+    }
+    return (sum - lowest * lowestCount) / (arr.length - lowestCount);
+}`
