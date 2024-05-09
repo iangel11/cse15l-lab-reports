@@ -9,7 +9,8 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
         double[] input = {3, 3, 7, 9};
         double expected = 8.0; // It should be (7 + 9) / 2
         assertEquals(expected, ArrayExamples.averageWithoutLowest(input), 0.001);
-    }` 
+    }
+` 
 
 
 ![Image](cdNoArg.png)
