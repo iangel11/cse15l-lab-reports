@@ -35,6 +35,7 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
 #### Particularly in `ArrayExamples.java`, the bug is situated in the `averageWithoutLowest` method.
 
 Here's the original code: 
+
 static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
@@ -50,7 +51,8 @@ static double averageWithoutLowest(double[] arr) {
 
 
 And, here's that code after the fix:
- static double averageWithoutLowest(double[] arr) {
+`
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     int lowestCount = 0;
@@ -69,3 +71,4 @@ And, here's that code after the fix:
     }
     return (sum - lowest * lowestCount) / (arr.length - lowestCount);
 }
+`
