@@ -125,4 +125,4 @@ For the examples and explanations of the `grep` command options (`-i`, `-v`, `-n
 
 `https://www.geeksforgeeks.org/grep-command-in-unixlinux/` This article offers comprehensive examples and explanations of various `grep` command options, including their practical applications in searching within files and directories.
 
-Besides that, I applied the knowledge I've gained from the lab by using it on my terminal.
+Besides that, I applied the knowledge I've gained from the lab and by additionally using it on my terminal.
