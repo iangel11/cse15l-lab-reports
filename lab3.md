@@ -37,38 +37,38 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
 Here's the original code: 
 
     static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
-    }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1);
+        if(arr.length < 2) { return 0.0; }
+        double lowest = arr[0];
+        for(double num: arr) {
+          if(num < lowest) { lowest = num; }
+        }
+        double sum = 0;
+        for(double num: arr) {
+          if(num != lowest) { sum += num; }
+        }
+        return sum / (arr.length - 1);
     }
 
 
 And, here's that code after the fix:
 
     static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    int lowestCount = 0;
-    for(double num: arr) {
-      if(num < lowest) {
-        lowest = num;
-        lowestCount = 1;
-      } 
-      else if (num == lowest) {
-        lowestCount++;
-      }
-    }
-    double sum = 0;
-    for(double num: arr) {
-      sum += num;
-    }
-    return (sum - lowest * lowestCount) / (arr.length - lowestCount);
+        if(arr.length < 2) { return 0.0; }
+        double lowest = arr[0];
+        int lowestCount = 0;
+        for(double num: arr) {
+          if(num < lowest) {
+            lowest = num;
+            lowestCount = 1;
+          } 
+          else if (num == lowest) {
+            lowestCount++;
+          }
+        }
+        double sum = 0;
+        for(double num: arr) {
+          sum += num;
+        }
+        return (sum - lowest * lowestCount) / (arr.length - lowestCount);
     }
 
