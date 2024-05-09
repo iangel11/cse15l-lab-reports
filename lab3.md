@@ -11,6 +11,7 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
         assertEquals(expected, ArrayExamples.averageWithoutLowest(input), 0.001);
     }
 
+
 ### `Non-Failure-Inducing input:`
 #### This JUnit test shows a case where the code works as expected because there is only one occurrence of the lowest value, which is '4'.
     
@@ -22,6 +23,7 @@ For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's l
     }
 
 
-### 'The symptom, as the output of running the two tests:'
+
+### `The symptom, as the output of running the two tests:`
 
 ![Image](twoTest.png)
