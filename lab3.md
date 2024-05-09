@@ -121,7 +121,7 @@ The second command searches for the whole word "fail" in `launch.log`.
 ### Citation
 For the examples and explanations of the `grep` command options (`-i`, `-v`, `-n`, and `-w`), the following websites were used:
 
-`https://docs.rackspace.com/docs/use-the-linux-grep-command` This source provided details about general usage and specific options for the grep command, helping to understand how each option modifies the command's behavior.
+`https://docs.rackspace.com/docs/use-the-linux-grep-command` This source provided details about general usage and specific options for the `grep` command, helping to understand how each option modifies the command's behavior.
 
 `https://www.geeksforgeeks.org/grep-command-in-unixlinux/` This article offers comprehensive examples and explanations of various `grep` command options, including their practical applications in searching within files and directories.
 
