@@ -81,6 +81,7 @@ And, here's that code after the fix:
 ## Part 2
 For this Part, I choose the command `grep`.
 
+
 ### Option 1: `-i`
 #### This option allows `grep` to match lines regardless of the case of the characters. It makes the search case-insensitive.
 
@@ -89,6 +90,7 @@ For this Part, I choose the command `grep`.
 
 The first command searches for the word "module" in `config.txt` with no regard to uppercase or lowercase letters.
 The second command searches for "error" in the `logfile.log`, it is for debugging without worrying about capitalization.
+
 
 ### Option 2: `-v`
 #### This option prints out all the lines that don't match the pattern.
@@ -99,14 +101,16 @@ The second command searches for "error" in the `logfile.log`, it is for debuggin
 The first command displays all lines in `document.txt` that do not contain the word "and".
 The second command shows lines in `config.txt` that don't start with a #, which are used for comments.
 
+
 ### Option 3: `-n`
 #### This option displays the line number in the file where each match is found.
 
     grep -n "error" ./technical/logs/error_line.txt
     grep -n "quit" ./technical/config/server.cfg
     
-The first command searches for "error" in `error_line.txt` and prints each matching line with its respective line number. 
-The second command looks for the term "quit" in `server.cfg` and includes line numbers in the output.
+The first command searches for "error" in `error_line.txt` and prints each matching line with its respective line number.
+The second command looks for the term "quit" in `server.cfg` and includes line numbers in the output, for quick navigation.
+
 
 ### Option 4: `-w`
 #### This option ensures that grep matches patterns that form whole words.
