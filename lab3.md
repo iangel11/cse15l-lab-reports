@@ -96,8 +96,8 @@ The second command searches for "error" in the `logfile.log`, it is for debuggin
     grep -v "and" ./technical/document.txt
     grep -v "^#" ./technical/config.txt
     
-The first command displays all lines in documentat.txt that do not contain the word "and".
-The second command shows lines in config.txt that don't start with a #, which are used for comments.
+The first command displays all lines in `document.txt` that do not contain the word "and".
+The second command shows lines in `config.txt` that don't start with a #, which are used for comments.
 
 ### Option 3: `-n`
 #### TThis option displays the line number in the file where each match is found.
@@ -105,8 +105,8 @@ The second command shows lines in config.txt that don't start with a #, which ar
     grep -n "error" ./technical/logs/error_line.txt
     grep -n "quit" ./technical/config/server.cfg
     
-The first command searches for "error" in error_line.txt and prints each matching line with its respective line number. 
-The second command looks for the term "quit" in server.cfg and includes line numbers in the output.
+The first command searches for "error" in `error_line.txt` and prints each matching line with its respective line number. 
+The second command looks for the term "quit" in `server.cfg` and includes line numbers in the output.
 
 ### Option 4: `-w`
 #### This option ensures that grep matches patterns that form whole words.
@@ -114,8 +114,8 @@ The second command looks for the term "quit" in server.cfg and includes line num
     grep -w "start" ./technical/scripts/setup.sh
     grep -w "fail" ./technical/logs/launch.log
     
-The first command searches for the whole word "start" in setup.sh.
-The second command searches for the whole word "fail" in launch.log. 
+The first command searches for the whole word "start" in `setup.sh`.
+The second command searches for the whole word "fail" in `launch.log`. 
 
 
 ### Citation
