@@ -1,6 +1,6 @@
 # Lab3 Report
 
-## Part I
+## Part 1
 For this Lab Report, I would like to choose `ArrayExamples.java` from week 4's lab.
 
 ### `A failure-inducing input:`
