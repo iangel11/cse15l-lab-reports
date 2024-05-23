@@ -118,9 +118,10 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
   `git<space>push<space>origin<space>main<enter>`
 
 #### Summary: 
-    git add .<enter>: Stages all changes.
-    git commit -m "Fixed index bug in ListExamples.java"<enter>: Commits the changes with a message.
-    git push origin main<enter>: Pushes the changes to the repository.
+
+`git add .<enter>`: Stages all changes.
+`git commit -m "Fixed index bug in ListExamples.java. Woohoo"<enter>`: Commits the changes with a message.
+`git push origin main<enter>`: Pushes the changes to the repository.
 
 
 
