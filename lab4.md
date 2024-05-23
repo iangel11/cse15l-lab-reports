@@ -3,6 +3,8 @@
 #### This lab was very interesting and important to me! It was a wonderful opportunity to work with `vim`!
 
 
+
+
 ### Log into ieng6
 
 ![Image]()
@@ -14,6 +16,7 @@
 #### Summary:
 
 This command logs you into the ieng6 server.
+
 
 
 
@@ -33,6 +36,7 @@ These commands clones your fork of the repository and changes the directory to t
 
 
 
+
 ### Run the Tests
 
 ![Image]()
@@ -46,6 +50,7 @@ These commands clones your fork of the repository and changes the directory to t
 #### Summary: 
 
 These commands compile the Java files and run the JUnit tests, demonstrating their failure.
+
 
 
 
@@ -83,6 +88,8 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 `:wc`: Saves and quits Vim.
 
 
+
+
 ### Re-run the Tests
 
 ![Image]()
@@ -97,6 +104,23 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 `<up><up><up><up><enter>`: Runs the previous javac command from history.
 `<up><up><up><up><enter>`: Runs the previous java command from history.
 
+
+
+
+### Commit and Push Changes
+
+![Image]()
+
+#### Keys pressed:
+
+  `git<space>add<space>.<enter>`
+  `git<space>commit<space>-m<space>"Fixed index bug in ListExamples.java. Woohoo"<enter>`
+  `git<space>push<space>origin<space>main<enter>`
+
+#### Summary: 
+    git add .<enter>: Stages all changes.
+    git commit -m "Fixed index bug in ListExamples.java"<enter>: Commits the changes with a message.
+    git push origin main<enter>: Pushes the changes to the repository.
 
 
 
