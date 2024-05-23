@@ -16,6 +16,7 @@
 This command logs you into the ieng6 server.
 
 
+
 ### Clone the Repository
 
 ![Image]()
@@ -29,6 +30,7 @@ This command logs you into the ieng6 server.
 #### Summary: 
 
 These commands clones your fork of the repository and changes the directory to the cloned repository.
+
 
 
 ### Run the Tests
