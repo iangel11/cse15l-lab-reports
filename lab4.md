@@ -7,7 +7,7 @@
 
 ### Log into ieng6
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.31.20 PM.jpg)
 
 #### Keys pressed:
   
@@ -22,7 +22,7 @@ This command logs you into the ieng6 server.
 
 ### Clone the Repository
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.32.19 PM.jpg)
 
 #### Keys pressed:
 
@@ -39,7 +39,7 @@ These commands clones your fork of the repository and changes the directory to t
 
 ### Run the Tests
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.34.28 PM.jpg)
 
 #### Keys pressed:
 
@@ -56,7 +56,7 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 
 ### Edit the Code with Vim to Fix the Failing Test
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.53.27 PM.jpg)
 
 #### Keys pressed:
 
@@ -92,7 +92,7 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 
 ### Re-run the Tests
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.52.59 PM.jpg)
 
 #### Keys pressed:
 
@@ -109,7 +109,7 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 
 ### Commit and Push Changes
 
-![Image]()
+![Image](Screenshot 2024-05-22 at 10.58.33 PM.jpg)
 
 #### Keys pressed:
 
