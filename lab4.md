@@ -2,6 +2,7 @@
 
 #### This lab was very interesting and important to me! It was a wonderful opportunity to work with `vim`!
 
+
 ### Log into ieng6
 
 #### Keys pressed:
@@ -10,6 +11,7 @@
 
 #### Summary:
 This command logs you into the ieng6 server.
+
 
 ### Clone the Repository
 
@@ -20,5 +22,5 @@ This command logs you into the ieng6 server.
   `cd<space>lab7<enter>` This command changes the directory to lab7.
 
 #### Summary: 
-This command clones your fork of the repository and changes the directory to the cloned repository.
+These commands clones your fork of the repository and changes the directory to the cloned repository.
 
