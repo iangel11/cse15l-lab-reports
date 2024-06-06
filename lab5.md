@@ -32,7 +32,7 @@ Looks like the issue is with accessing args[0] without checking if any arguments
 
 
 #### TA:
-Great, it looks like you've identified the problem. The issue is that your Java program is trying to access the first argument without checking if any arguments were passed. To fix this, you should add a check to ensure that args is not empty before accessing it. Here's how you can modify your MyProgram.java:
+Great, it looks like you've identified the problem. The issue is that your Java program is trying to access the first argument without checking if any arguments were passed. To fix this, you should modify your MyProgram.java by adding an if statement that checks if args.length is greater than 0 before attempting to print args[0], ensuring the program only accesses the first argument if it exists, and prints "No arguments provided" otherwise, as shown on the picture below:
 
 ![Image](Screenshot 2024-06-05 at 10.45.18 PM.png)
 
