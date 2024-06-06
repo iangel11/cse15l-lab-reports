@@ -21,10 +21,11 @@ Hi! It looks like the issue might be related to how the arguments are being hand
 
 
 #### Student:
-Alright, I actually ran the Java program directly with no arguments and got that output I already sent you. It seems like the program is trying to access an array element that doesn't exist. Here's the code for my Java program itself and the Bash script:
+Alright, I actually ran the Java program directly with no arguments and got that output I already sent you. It seems like the program is trying to access an array element that doesn't exist. Here's the code for my Java program itself and the Bash script, as well as my file & directory structure for further clarification:
 
 ![Image](Screenshot 2024-06-05 at 10.42.05 PM.png)
 ![Image](Screenshot 2024-06-05 at 10.44.35 PM.png)
+![Image](Screenshot 2024-06-05 at 11.44.43 PM.png)
 
 Looks like the issue is with accessing args[0] without checking if any arguments were passed. What do you think?
 
