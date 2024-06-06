@@ -8,8 +8,7 @@
 #### Student:
 Hi everyone, I'm having an issue with my Java program. I'm trying to run a script that compiles and runs a simple Java application, but I'm getting some unexpected behavior. When I run my bash script, it seems like the Java program isn't executing correctly. Here's a screenshot of the error I'm seeing:
 
-SHOULD BE IMAGE
-Error: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+![Image](
 
 I'm guessing it has something to do with how I'm passing arguments to the Java program, but I'm not sure. The input to the bash script should trigger this issue.
 
