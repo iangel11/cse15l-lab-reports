@@ -54,4 +54,4 @@ You're welcome!
 
 ### Part 2 – Reflection
 
-During the second half of this quarter, I learned a lot about debugging and the importance of validating inputs in my programs, as well as to use Vim! This experience taught me to anticipate potential issues and handle them proactively, making my programs more reliable. Also, I absolutely loved learning about Vim, it felt kind of cryptic and a bit serious  but that's why I enjoyed gaining knowledge on it and mastering it. Thank you so much!
+During the second half of this quarter, I learned a lot about debugging and the importance of validating inputs in my programs, as well as how to use Vim! This experience taught me to anticipate potential issues and handle them proactively, making my programs more reliable. Also, I absolutely loved learning about Vim, it felt kind of cryptic and a bit serious  but that's why I enjoyed gaining knowledge on it and mastering it. Thank you so much!
