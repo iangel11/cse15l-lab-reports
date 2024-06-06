@@ -76,7 +76,7 @@
 
   `<esc>` To quit the text editor.
 
-  `:wc` Saves and quits Vim.
+  `:wc<enter>` Saves and quits Vim.
 
 
 
