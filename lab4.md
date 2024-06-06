@@ -20,6 +20,7 @@ This command logs you into the ieng6 server.
 
 
 
+
 ### Clone the Repository
 
 ![Image](Screenshot 2024-05-22 at 10.32.19 PM.jpg)
@@ -33,6 +34,7 @@ This command logs you into the ieng6 server.
 #### Summary: 
 
 These commands clones your fork of the repository and changes the directory to the cloned repository.
+
 
 
 
@@ -54,6 +56,7 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 
 
 
+
 ### Edit the Code with Vim to Fix the Failing Test
 
 ![Image](Screenshot 2024-05-22 at 10.53.27 PM.jpg)
@@ -61,31 +64,45 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 #### Keys pressed:
 
   `vim<space>ListExamples.java<enter>`
+
   `/index1<enter>`
-  `n
-   n
-   n
-   n
-   n
-   n
-   n
-   n
-   n`
+
+  `n`
+  `n`
+  `n`
+  `n`
+  `n`
+  `n`
+  `n`
+  `n`
+  `n`
+
   `i`
+
   `<right><right><right><right><right><right><backspace>2`
+
   `<esc>`
+
   `:wc`
 
 #### Summary: 
 
 `vim ListExamples.java<enter>`: Opens the file in Vim.
+
 `/index1<enter>`: Searches for the term "index1".
+
 `n`: Finds the next occurrence (did it 9 times to get to the desired index1).
+
 `i`: Enters the text editor in Vim.
+
 `<right>`: Moves cursor to the right once in the editor (done 6 times to get to the number `1`).
+
 `<backspace>`: To delete `1` from index and then `2` to change from the blank.
+
 `<esc>`: To quit text editor.
+
 `:wc`: Saves and quits Vim.
+
 
 
 
@@ -97,12 +114,15 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 #### Keys pressed:
 
   `<up><up><up><up><enter>`
+  
   `<up><up><up><up><enter>`
 
 #### Summary:
 
 `<up><up><up><up><enter>`: Runs the previous javac command from history.
+
 `<up><up><up><up><enter>`: Runs the previous java command from history.
+
 
 
 
@@ -114,13 +134,17 @@ These commands compile the Java files and run the JUnit tests, demonstrating the
 #### Keys pressed:
 
   `git<space>add<space>.<enter>`
+  
   `git<space>commit<space>-m<space>"Fixed index bug in ListExamples.java. Woohoo"<enter>`
+  
   `git<space>push<space>origin<space>main<enter>`
 
 #### Summary: 
 
 `git add .<enter>`: Stages all changes.
+
 `git commit -m "Fixed index bug in ListExamples.java. Woohoo"<enter>`: Commits the changes with a message.
+
 `git push origin main<enter>`: Pushes the changes to the repository.
 
 
