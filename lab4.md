@@ -59,15 +59,7 @@
 
   `/index1<enter>` Searches for the term "index1".
 
-  `n`
-  `n`
-  `n`
-  `n`
-  `n`
-  `n`
-  `n`
-  `n`
-  `n` Finds the next occurrence (I pushed `n` 9 times in a row to get to the desired index1).
+  `nnnnnnnnn` Command `n` finds the next occurrence, so I pushed `n` 9 times in a row to get to the desired `index1`.
 
   `i` Enters the text editor in Vim.
 
