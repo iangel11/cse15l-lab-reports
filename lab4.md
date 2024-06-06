@@ -72,7 +72,7 @@
   `i` Enters the text editor in Vim.
 
   `<right><right><right><right><right><right><backspace>2` 
-  First, I moved cursor to the `right` once in the editor (done 6 times to get to the number `1`). Then, I used `backspace` to delete `1` from index and then I pushed `2` to change it to 2 from the blank.
+   First, I moved cursor to the `right` once in the editor (done 6 times to get to the number `1`). Then, I used `backspace` to delete `1` from index and then I pushed `2` to change it to 2 from the blank.
 
   `<esc>` To quit the text editor.
 
