@@ -104,6 +104,6 @@
 
   `git<space>add<space>.<enter>` Stages all changes.
   
-  `git<space>commit<space>-m<space>"Fixed index bug in ListExamples.java. Woohoo"<enter>` Commits the changes with a message.
+  `git<space>commit<space>-m<space>"Fixed<space>index<space>bug<space>in<space>ListExamples.java.<space>Woohoo"<enter>` Commits the changes with a message. My message was: "Fixed index bug in ListExamples.java. Woohoo"
   
   `git<space>push<space>origin<space>main<enter>` Pushes the changes to the repository.
